@@ -1,5 +1,5 @@
 {
-  description = ''Nim's official stdlib extension'';
+  description = ''Extensions for Nim's stdlib'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-fusion-v1_1.flake = false;
   inputs.src-fusion-v1_1.owner = "nim-lang";
-  inputs.src-fusion-v1_1.ref   = "refs/tags/v1.1";
+  inputs.src-fusion-v1_1.ref   = "v1_1";
   inputs.src-fusion-v1_1.repo  = "fusion";
   inputs.src-fusion-v1_1.type  = "github";
   
