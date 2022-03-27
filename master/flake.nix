@@ -11,6 +11,7 @@
   inputs.src-fusion-master.ref   = "refs/heads/master";
   inputs.src-fusion-master.owner = "nim-lang";
   inputs.src-fusion-master.repo  = "fusion";
+  inputs.src-fusion-master.dir   = "";
   inputs.src-fusion-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

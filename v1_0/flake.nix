@@ -11,6 +11,7 @@
   inputs.src-fusion-v1_0.ref   = "refs/tags/v1.0";
   inputs.src-fusion-v1_0.owner = "nim-lang";
   inputs.src-fusion-v1_0.repo  = "fusion";
+  inputs.src-fusion-v1_0.dir   = "";
   inputs.src-fusion-v1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
